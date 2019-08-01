@@ -728,4 +728,88 @@ if (john.average > mark.average) {
 } else if (mark.average > john.average) {
     console.log(mark.fullName + '\'s family pays higher tips, with an average of $' + mark.average);
 }
-*/
+*//* OR*************/
+/*
+
+var tipCalc = {
+     bill : [124, 48, 268, 180, 42],
+     tip: [],
+     finalAmt:[],
+     tipCal: function(){
+         for(let i=0;i<this.bill.length; i++){
+             if(this.bill[i]<50){
+                 this.tip.push(this.bill[i]*0.2);
+                 this.finalAmt.push(this.bill[i]+this.tip[i]);
+             }
+             else if(this.bill[i]>=50 && this.bill[i]<200){
+                 this.tip.push(this.bill[i]*0.15);
+                 this.finalAmt.push(this.bill[i]+this.tip[i]);
+
+             }
+             else{
+                 this.tip.push(this.bill[i]*0.1);
+                 this.finalAmt.push(this.bill[i]+this.tip[i]);
+
+             }
+
+         }
+     }
+
+
+     
+
+}
+tipCalc.tipCal();
+console.log(tipCalc.tip);
+console.log(tipCalc.finalAmt);
+var tipCalc2 = {
+    bill : [77, 375, 110, 45],
+    tip: [],
+    finalAmt:[],
+    tipCal: function(){
+        for(let i=0;i<this.bill.length; i++){
+            if(this.bill[i]<100){
+                this.tip.push(this.bill[i]*0.2);
+                this.finalAmt.push(this.bill[i]+this.tip[i]);
+            }
+            else if(this.bill[i]>=100 && this.bill[i]<300){
+                this.tip.push(this.bill[i]*0.10);
+                this.finalAmt.push(this.bill[i]+this.tip[i]);
+
+            }
+            else{
+                this.tip.push(this.bill[i]*0.25);
+                this.finalAmt.push(this.bill[i]+this.tip[i]);
+
+            }
+
+        }
+    }
+
+
+    
+
+}
+tipCalc2.tipCal();
+console.log(tipCalc2.tip);
+console.log(tipCalc2.finalAmt);
+function avg(tip){var sum = 0;
+    for(let i=0;i<tip.length;i++){
+        
+        sum+= tip[i];
+
+    }
+    var avg = sum/tip.length;
+  return avg;
+}
+var johnAvg = avg(tipCalc.tip);
+var mikeAvg = avg(tipCalc2.tip);
+if(johnAvg > mikeAvg){
+    console.log("John's family paid the highest tips on avg");
+}else if(johnAvg < mikeAvg){
+    console.log("Mike's family paid the highest tips on avg");
+}
+else{
+    console.log("both paid equal tips on avg");
+}*/
+
