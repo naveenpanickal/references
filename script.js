@@ -135,7 +135,6 @@ Mark and John are trying to compare their BMI (Body Mass Index), which is calcul
 3. Create a boolean variable containing information about whether Mark has a higher BMI than John.
 4. Print a string to the console containing the variable from step 3. (Something like "Is Mark's BMI higher than John's? true"). 
 
-GOOD LUCK 😀
 */
 /*
 var massMark = 78; // kg
@@ -306,7 +305,6 @@ John and Mike both play basketball in different teams. In the latest 3 games, Jo
 4. EXTRA: Mary also plays basketball, and her team scored 97, 134 and 105 points. Like before, log the average winner to the console. HINT: you will need the && operator to take the decision. If you can't solve this one, just watch the solution, it's no problem :)
 5. Like before, change the scores to generate different winners, keeping in mind there might be draws.
 
-GOOD LUCK 😀
 */
 /*
 var scoreJohn = (189 + 120 + 103) / 3;
@@ -448,7 +446,6 @@ In the end, John would like to have 2 arrays:
 
 (NOTE: To calculate 20% of a value, simply multiply it with 20/100 = 0.2)
 
-GOOD LUCK 😀
 */
 /*
 function tipCalculator(bill) {
@@ -544,7 +541,6 @@ Let's remember the first coding challenge where Mark and John compared their BMI
 
 Remember: BMI = mass / height^2 = mass / (height * height). (mass in kg and height in meter).
 
-GOOD LUCK 😀
 */
 /*
 var john = {
@@ -654,7 +650,6 @@ Mark likes to tip 20% of the bill when the bill is less than $100, 10% when the 
 7. Calculate the average tip for each family
 8. Log to the console which family paid the highest tips on average
 
-GOOD LUCK 😀
 */
 
 /*
