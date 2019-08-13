@@ -1,6 +1,6 @@
 /////////////////////////////
-// Lecture: Object.create 
-/*
+// Object.create 
+
 var personProto = {
     calculateAge: function() {
         console.log(2016 - this.yearOfBirth);
@@ -17,6 +17,6 @@ var jane = Object.create(personProto, { /*Here the object inherits the property 
     yearOfBirth: { value: 1969 },
     job: { value: 'designer' }
 });
-*/
+
 
 

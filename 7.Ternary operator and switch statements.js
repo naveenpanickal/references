@@ -1,8 +1,8 @@
 
 /*****************************
 * The Ternary Operator and Switch Statements
-*//* We can use ternary operator instead of if else statement.
-/*
+*/// We can use ternary operator instead of if else statement.
+
 var firstName = 'John';
 var age = 14;
 
@@ -19,7 +19,7 @@ console.log(drink);
 }
 
 // Switch statement
-/* Use if more than four if else statements are required.
+//Use if more than four if else statements are required.
 var job = 'instructor';
 switch (job) {
     case 'teacher':

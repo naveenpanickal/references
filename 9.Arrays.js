@@ -2,7 +2,7 @@
 /*****************************
 * Arrays
 */
-/*
+
 // Initialize new array
 var names = ['John', 'Mark', 'Jane'];
 var years = new Array(1990, 1969, 1948);
@@ -31,4 +31,4 @@ console.log(john.indexOf(23));
 
 var isDesigner = john.indexOf('designer') === -1 ? 'John is NOT a designer' : 'John IS a designer';
 console.log(isDesigner);
-*/
+

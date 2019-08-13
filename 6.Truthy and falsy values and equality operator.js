@@ -1,7 +1,7 @@
 /*****************************
 * Truthy and Falsy values and equality operators
 */
-/*
+
 // falsy values: undefined, null, 0, '', NaN
 // truthy values: NOT falsy values
 
@@ -19,4 +19,4 @@ if (height || height === 0) {
 if (height === '23') {
     console.log('The == operator does type coercion!');
 }
-*/
+

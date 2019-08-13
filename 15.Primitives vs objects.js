@@ -1,6 +1,6 @@
 /////////////////////////////
 // Lecture: Primitives vs objects
-/*//Variables containing primitives holds the data in the variable itself
+//Variables containing primitives holds the data in the variable itself
 //while variables holding objects would rather points to the memory location of the object.
 // Primitives
 var a = 23;
